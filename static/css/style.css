@@ -1,0 +1,26 @@
+.contanier-1, .contanier-2{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+.flex-box-contanier-1,.flex-box-contanier-2{
+    border: 1px solid black;
+    display: flex;
+    padding:10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-box-contanier-1 div{
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.flex-box-contanier-2 img{
+    
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(0,0,0,0.7);
+}
